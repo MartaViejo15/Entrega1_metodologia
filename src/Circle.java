@@ -36,5 +36,13 @@ public class Circle { // Save as "Circle.java"
     public String getColor() {
         return color;
     }
+    // Setter for instance variable radius
+    public void setRadius(double newRadius) {
+        radius = newRadius;
+    }
+    // Setter for instance variable color
+    public void setColor(String newColor) {
+        color = newColor;
+    }
 
 }
