@@ -32,5 +32,9 @@ public class Circle { // Save as "Circle.java"
     public Circle (double r, String c) {
     }
 
+    // Getter for instance variable color
+    public String getColor() {
+        return color;
+    }
 
 }
