@@ -21,6 +21,8 @@ public class TestCircle { // Save as "TestCircle.java"
                 + c2.getRadius() + " and area of " + c2.getArea());
         //The circle has radius of 2.0 and area of 12.566370614359172
 
-
+        // Círculo 3, va a tener un radio de 3.0 y el area total va a ser 28.274333882308138
+        Circle c3 = new Circle(3.0);
+        System.out.println("The circle has radius of " + c3.getRadius() + " and area of " + c3.getArea());
     }
 }
