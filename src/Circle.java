@@ -3,14 +3,14 @@
  */
 public class Circle { // Save as "Circle.java"
     // private instance variable, not accessible from outside this class
-    private double radius;
-    private String color;
+    private double radius = 1.0;
+    private String color = "red";
 
     // Constructors (overloaded)
     /** Constructs a Circle instance with default value for radius and color */
     public Circle() { // 1st (default) constructor
-        radius = 1.0;
-        color = "red";
+        double radius1 = radius;
+        String color1 = color;
     }
 
     /** Constructs a Circle instance with the given radius and default color */
