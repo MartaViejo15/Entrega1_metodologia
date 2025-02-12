@@ -34,5 +34,13 @@ public class TestCircle { // Save as "TestCircle.java"
         //System.out.println(c4.setRadius(4.4));
         // Da errror porque void no puede imprimirse
 
+        Circle c5 = new Circle(5.5, "green");
+        System.out.println(c5.toString()); // explicit call
+
+        Circle c6 = new Circle(6.6);
+        System.out.println(c6.toString()); // explicit call
+        System.out.println(c6); // println() calls toString() implicitly, same as above
+        System.out.println("Operator '+' invokes toString() too: " + c6); // '+' invokes toString() too
+
     }
 }
