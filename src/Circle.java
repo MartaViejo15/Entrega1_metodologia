@@ -29,8 +29,9 @@ public class Circle { // Save as "Circle.java"
         return radius*radius*Math.PI;
     }
     // 3rd constructor to construct a new instance of Circle with the given radius and color
-    public Circle (double radius, String c) {
+    public Circle (double radius, String color) {
         this.radius = radius;
+        this.color = color;
     }
 
     // Getter for instance variable color
