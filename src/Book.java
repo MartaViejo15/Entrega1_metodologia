@@ -37,4 +37,13 @@ public class Book {
     public String toString() {
         return "Book [name=" + name + "," + author.toString() + ", price=" + price + ", qty=" + qty + "]";
     }
+    public String getAuthorName() {
+        return author.getName();
+    }
+    public String getAuthorEmail() {
+        return author.getEmail();
+    }
+    public char getAuthorGender() {
+        return author.getGender();
+    }
 }
