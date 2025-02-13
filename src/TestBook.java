@@ -19,5 +19,11 @@ public class TestBook {
                 new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
         System.out.println(anotherBook); // toString()
 
+        System.out.println(anotherBook.getAuthor().getName()); // Modificación 1
+        System.out.println(anotherBook.getAuthor().getEmail()); // Modificación 1
+        System.out.println("Author's name is: " + dummyBook.getAuthor().getName());  // Modificación 2
+        System.out.println("Author's email is: " + dummyBook.getAuthor().getEmail());  // Modificación 2
+        System.out.println("Author's gender is: " + dummyBook.getAuthor().getGender());  // Modificación 2
+
     }
 }
