@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.composagre.b;
+
 public class TestAuthor {
     public static void main(String[] args) {
         Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm'); // Test the constructor
