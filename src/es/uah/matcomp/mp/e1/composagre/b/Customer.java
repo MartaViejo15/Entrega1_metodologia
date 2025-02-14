@@ -23,6 +23,6 @@ public class Customer {
         this.discount = discount;
     }
     public String toString() {
-        return name + "(" + id + ")" + "(" + discount + ")";
+        return name + "(" + id + ")" + "(" + discount + "%)";
     }
 }
