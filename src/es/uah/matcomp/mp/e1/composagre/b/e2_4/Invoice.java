@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.composagre.b;
+package es.uah.matcomp.mp.e1.composagre.b.e2_4;
 
 public class Invoice {
     private int id;
