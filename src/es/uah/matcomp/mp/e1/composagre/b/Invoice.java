@@ -32,7 +32,7 @@ public class Invoice {
         return customer.getDiscount();
     }
     public double getAmountAfterDiscount() {
-        return customer.getDiscount() + amount;
+        return amount - (amount * (customer.getDiscount() * 0.01));
     }
     public String toString() {
         return "Invoice[id=" + id + ", customer=" + customer + ", amount=" + amount + "]";
