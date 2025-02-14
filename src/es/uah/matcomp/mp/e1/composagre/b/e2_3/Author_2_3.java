@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.composagre.b;
+package es.uah.matcomp.mp.e1.composagre.b.e2_3;
 
 public class Author_2_3 {
     private String name;
