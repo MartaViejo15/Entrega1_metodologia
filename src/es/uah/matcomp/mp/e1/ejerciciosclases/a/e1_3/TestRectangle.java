@@ -1,7 +1,7 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_3;
 
 
-class testmain {
+class TestRectangle {
     public static void main(String[] args) {
         // Test constructors and toString()
         // You need to append a 'f' or 'F' to a float literal
