@@ -1,6 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_9;
 
-class TestMainw {
+class TestBall {
     public static void main(String[] args) {
         // Test constructor and toString()
         Ball ball = new Ball(1.1f, 2.2f, 10, 3.3f, 4.4f);
@@ -22,7 +22,7 @@ class TestMainw {
         float xMax = 100.0f;
         float yMin = 0.0f;
         float yMax = 50.0f;
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 30; i++) {
             ball.move();
             System.out.println(ball);
             float xNew = ball.getX();
