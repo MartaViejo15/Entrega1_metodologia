@@ -1,6 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_8;
 
-class TestMaini {
+class TestTime {
     public static void main(String[] args) {
         // Test constructors and toString()
         Time t1 = new Time(1, 2, 3);
