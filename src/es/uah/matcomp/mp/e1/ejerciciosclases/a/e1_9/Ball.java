@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_9;
 
 public class Ball {
     private float x;
