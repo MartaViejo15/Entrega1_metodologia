@@ -1,6 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_7;
 
-class TestMaina {
+class TestDate {
     public static void main(String[] args) {
         // Test constructor and toString()
         Date d1 = new Date(1, 2, 2014);
