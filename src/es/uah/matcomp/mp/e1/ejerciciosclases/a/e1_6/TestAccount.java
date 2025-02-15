@@ -1,6 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.a;
+package es.uah.matcomp.mp.e1.ejerciciosclases.a.e1_6;
 
-class Testmain {
+class TestAccount {
     public static void main(String[] args) {
         // Test constructor and toString()
         Account a1 = new Account("A101", "Tan Ah Teck", 88);
