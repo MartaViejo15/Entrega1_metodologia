@@ -22,5 +22,9 @@ class TestAccount {
         a1.transferTo(a2, 100); // toString()
         System.out.println(a1);
         System.out.println(a2);
+        // Test transferTo() insufficient balance
+        a1.transferTo(a1, 500);
+        System.out.println(a1);
+        System.out.println(a2);
     }
 }
