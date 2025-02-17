@@ -22,5 +22,19 @@ class TestTime {
         // Test previousSecond()
         System.out.println(t1.previousSecond());
         System.out.println(t1.previousSecond().previousSecond());
+
+        t1.setTime(22, 59, 59);
+        System.out.println(t1.nextSecond());  // 23:00:00 for only changing the hour
+
+        // Test previousSecond()
+        System.out.println(t1.previousSecond());  // 22:59:59
+        t1.setTime(0, 0, 0);
+        System.out.println(t1.previousSecond());  // 23:59:59 changing the day backwards
+        // for minute != 60 and hour != 24
+        t1.setTime(10, 30, 59);
+        System.out.println(t1.nextSecond());  // 10:31:00
+        // for minute != 0 and hour != 0
+        t1.setTime(5, 20, 0);
+        System.out.println(t1.previousSecond());  // 5:19:59
     }
 }
