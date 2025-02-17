@@ -7,6 +7,8 @@ class TestCircle {
         System.out.println(c1); // toString()
         Circle c2 = new Circle(); // default constructor
         System.out.println(c2);
+        Circle c3 = new Circle(3.3, "red");
+        System.out.println(c3);
         // Test setter and getter
         c1.setRadius(2.2);
         System.out.println(c1); // toString()
