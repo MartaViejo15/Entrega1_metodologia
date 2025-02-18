@@ -7,7 +7,7 @@ public class TestMyLine {
         // Test for defining the data
         MyLine line1 = new MyLine(4, 8, 5, 6);
         System.out.println(line1);
-        MyLine begin2 = new MyLine(new MyPoint(7, 0), new MyPoint(0, 7));
+        MyLine line2 = new MyLine(new MyPoint(7, 0), new MyPoint(0, 7));
 
         // Test for getters and setters
         line1.setBegin(new MyPoint(9, 7));
