@@ -12,7 +12,9 @@ public class TestCustomerAccount {
 
         // Test for Account class
         Account a1 = new Account(4, c1, 1000);
+        Account a2 = new Account(4, c1);
         System.out.println(a1);
+        System.out.println(a2);
         System.out.println("Id is:" + a1.getId());
         System.out.println("Customer is:" + a1.getCustomer());
         System.out.println("Customer's balance is:$" + a1.getBalance());
@@ -21,7 +23,8 @@ public class TestCustomerAccount {
         System.out.println("Deposited account is:" + a1.deposit(400));
         System.out.println("Withdrew account is:" + a1.withdraw(200));
         System.out.println("Withdrew account is:" + a1.withdraw(2000));
-
+        a1.setBalance(4000);
+        System.out.println(a1);
 
     }
 }
