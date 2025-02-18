@@ -11,7 +11,9 @@ public class TestBook_2_3 {
         System.out.println("email is: " + a1.getEmail());
         // Test Book class
         Book_2_3 b1 = new Book_2_3("12345", "Java for dummies", a1, 8.8, 88);
+        Book_2_3 b2 = new Book_2_3("54321", "Java for dummies 2", a1, 10.99);
         System.out.println(b1);
+        System.out.println(b2);
         b1.setPrice(9.9);
         b1.setQty(99);
         System.out.println(b1);
