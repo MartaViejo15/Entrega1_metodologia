@@ -4,7 +4,7 @@ public class MyLine {
     private MyPoint begin;
     private MyPoint end;
 
-    public MyLine(int x1, int y1, int x2, int y2) {
+    public MyLine(float x1, float y1, float x2, float y2) {
         begin = new MyPoint(x1, y1);
         end = new MyPoint(x2, y2);
     }
@@ -24,41 +24,41 @@ public class MyLine {
     public void setEnd(MyPoint end) {
         this.end = end;
     }
-    public int getBeginX() {
+    public float getBeginX() {
         return begin.getX();
     }
-    public void setBeginX(int beginX) {
+    public void setBeginX(float beginX) {
         this.begin.setX(beginX);
     }
-    public int getBeginY() {
+    public float getBeginY() {
         return begin.getY();
     }
-    public void setBeginY(int beginY) {
+    public void setBeginY(float beginY) {
         this.begin.setY(beginY);
     }
-    public int getEndX() {
+    public float getEndX() {
         return end.getX();
     }
-    public void setEndX(int endX) {
+    public void setEndX(float endX) {
         this.end.setX(endX);
     }
-    public int getEndY() {
+    public float getEndY() {
         return end.getY();
     }
-    public void setEndY(int endY) {
+    public void setEndY(float endY) {
         this.end.setY(endY);
     }
-    public int[] getBeginXY(int x, int y) {
-        return new int[]{begin.getX(), begin.getY()};
+    public float[] getBeginXY(float x, float y) {
+        return new float[]{begin.getX(), begin.getY()};
     }
-    public void setBeginXY(int x, int y) {
+    public void setBeginXY(float x, float y) {
         begin.setX(x);
         begin.setY(y);
     }
-    public int[] getEndXY(int x, int y) {
-        return new int[]{end.getX(), end.getY()};
+    public float[] getEndXY(float x, float y) {
+        return new float[]{end.getX(), end.getY()};
     }
-    public void setEndXY(int x, int y) {
+    public void setEndXY(float x, float y) {
         end.setX(x);
         end.setY(y);
     }

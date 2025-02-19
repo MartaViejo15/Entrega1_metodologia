@@ -2,23 +2,23 @@ package es.uah.matcomp.mp.e1.composagre.b.e2_6_7_8_9;
 
 public class MyCircle {
     private MyPoint center;
-    private int radius = 1;
+    private float radius = 1;
 
     public MyCircle(){
-        this.center = new MyPoint();
+        this.center = new MyPoint(1,2);
     }
-    public MyCircle(int x, int y, int radius){
+    public MyCircle(float x, float y, float radius){
         this.center = new MyPoint(x, y);
         this.radius = radius;
     }
-    public MyCircle(MyPoint center, int radius){
+    public MyCircle(MyPoint center, float radius){
         this.center = center;
         this.radius = radius;
     }
-    public int getRadius(){
+    public float getRadius(){
         return radius;
     }
-    public void setRadius(int radius){
+    public void setRadius(float radius){
         this.radius = radius;
     }
     public MyPoint getCenter(){
@@ -27,22 +27,22 @@ public class MyCircle {
     public void setCenter(MyPoint center){
         this.center = center;
     }
-    public int getCenterX(){
+    public float getCenterX(){
         return center.getX();
     }
-    public void setCenterX(int x){
+    public void setCenterX(float x){
         this.center.setX(x);
     }
-    public int getCenterY(){
+    public float getCenterY(){
         return center.getY();
     }
-    public void setCenterY(int y){
+    public void setCenterY(float y){
         this.center.setY(y);
     }
-    public int[] getCenterXY(){
-        return new int[]{getCenterX(), getCenterY()};
+    public float[] getCenterXY(){
+        return new float[]{getCenterX(), getCenterY()};
     }
-    public void setCenterXY(int x, int y){
+    public void setCenterXY(float x, float y){
         this.center.setX(x);
         this.center.setY(y);
     }

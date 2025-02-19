@@ -3,7 +3,7 @@ package es.uah.matcomp.mp.e1.composagre.b.e2_6_7_8_9;
 public class TestMyPoint {
     public static void main(String[] args) {
         // Test program to test all constructors and public methods
-        MyPoint p1 = new MyPoint(); // Test constructor
+        MyPoint p1 = new MyPoint(4,5); // Test constructor
         System.out.println(p1); // Test toString()
         p1.setX(8); // Test setters
         p1.setY(6);
