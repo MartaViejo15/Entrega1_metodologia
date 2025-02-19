@@ -30,7 +30,7 @@ public class MyTriangle {
         double face2 = v2.distance(v3);
         double face3 = v3.distance(v1);
 
-        if (Math.abs(face1 - face2) <= 0.1 && Math.abs(face2 - face3) <= 0.1 && Math.abs(face3 - face1) <= 0.1) {
+        if (Math.abs(face1 - face2) <= 0.5 && Math.abs(face2 - face3) <= 0.5) {
             return "Equilateral";
         }
         else if (Math.abs(face1 - face2) <= 0.1 || Math.abs(face2 - face3) <= 0.1 || Math.abs(face3 - face1) <= 0.1){
