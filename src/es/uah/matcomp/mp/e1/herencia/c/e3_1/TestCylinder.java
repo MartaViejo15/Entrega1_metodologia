@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.herencia.c;
+package es.uah.matcomp.mp.e1.herencia.c.e3_1;
 
 
 public class TestCylinder { // save as "TestCylinder.java"
@@ -11,6 +11,7 @@ public class TestCylinder { // save as "TestCylinder.java"
                 + " height=" + c1.getHeight()
                 + " base area=" + c1.getArea()
                 + " volume=" + c1.getVolume());
+        System.out.println(c1.toString());
 
         // Declare and allocate a new instance of cylinder
         // specifying height, with default color and radius
