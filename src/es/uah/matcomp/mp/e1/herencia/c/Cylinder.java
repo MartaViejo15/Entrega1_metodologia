@@ -29,5 +29,9 @@ public class Cylinder extends Circle { // Save as "Cylinder.java"
     public double getVolume() {
         return getArea()*height;
     }
+    @Override
+    public double getArea() {
+        return Math.PI*2*height*super.getRadius() + 2*super.getArea();
+    }
 }
 
