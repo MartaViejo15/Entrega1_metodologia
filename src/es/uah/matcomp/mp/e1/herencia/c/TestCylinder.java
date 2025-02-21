@@ -29,5 +29,13 @@ public class TestCylinder { // save as "TestCylinder.java"
                 + " height=" + c3.getHeight()
                 + " base area=" + c3.getArea()
                 + " volume=" + c3.getVolume());
+
+        // For 100% coverage
+        Circle circle = new Circle(5.0, "Black");
+        System.out.println(circle.toString());
+        circle.setRadius(7.0);
+        System.out.println("New radius is: " + circle.getRadius());
+        circle.setColor("Red");
+        System.out.println("New color is: " + circle.getColor());
     }
 }
