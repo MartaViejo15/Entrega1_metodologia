@@ -77,13 +77,28 @@ class BookTestAuthors {
 
     @Test
     void getAuthorInfo() {
+        Author[] authors = new Author[2];
+        authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
+        authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
+        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        assertEquals("Authors: Tan Ah Teck, AhTeck@somewhere.com, mPaul Tan, Paul@nowhere.com, m", javaDummy.getAuthorInfo());
     }
 
     @Test
     void getAuthorEmail() {
+        Author[] authors = new Author[2];
+        authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
+        authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
+        assertEquals("AhTeck@somewhere.com", authors[0].getEmail());
+        assertEquals("Paul@nowhere.com", authors[1].getEmail());
     }
 
     @Test
     void getAuthorGender() {
+        Author[] authors = new Author[2];
+        authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
+        authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
+        assertEquals('m', authors[0].getGender());
+        assertEquals('m', authors[1].getGender());
     }
 }
