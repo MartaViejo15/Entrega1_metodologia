@@ -91,7 +91,7 @@ class MyCircleTest {
     @Test
     void getArea() {
         MyCircle circle = new MyCircle(3, 5, 6);
-        assertEquals(Math.PI * 6 * 6, circle.getArea(), 0.0001);
+        assertEquals(Math.PI * 6 * 6, circle.getArea(), 0.0001); // Delta es la tasa de error
     }
 
     @Test
