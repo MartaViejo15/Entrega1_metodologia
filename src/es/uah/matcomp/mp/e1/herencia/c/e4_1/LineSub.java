@@ -79,7 +79,8 @@ public class LineSub extends Point {
         return Math.atan2(getEndY()-getBeginY(), getEndX()-getBeginX());
     }
 
-    /* Creo que para este caso es mejor hacerlo con composición, ya que de esta forma
+    /* Para el caso que nos ocupa, ¿cuál consideras mejor? ¿Por qué?
+    Creo que para este caso es mejor hacerlo con composición, ya que de esta forma
     el código queda más limpio y además la línea se compone de dos puntos, pero no es
     un punto, como podría darse a entender usando herencias.
      */
