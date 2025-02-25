@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyLineTest {
 
     @Test
-    void testConstructorWithCoordinates() {
+    void constructorCoordenadas() {
         MyLine line = new MyLine(4, 8, 5, 6);
         assertEquals(4, line.getBeginX());
         assertEquals(8, line.getBeginY());
@@ -16,7 +16,7 @@ class MyLineTest {
     }
 
     @Test
-    void testConstructorWithPoints() {
+    void constructorPuntos() {
         MyPoint begin = new MyPoint(7, 0);
         MyPoint end = new MyPoint(0, 7);
         MyLine line = new MyLine(begin, end);
