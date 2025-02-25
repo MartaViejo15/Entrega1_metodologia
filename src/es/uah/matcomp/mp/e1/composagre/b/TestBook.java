@@ -1,5 +1,7 @@
 package es.uah.matcomp.mp.e1.composagre.b;
 
+import java.util.Arrays;
+
 public class TestBook {
     public static void main(String[] args) {
 
@@ -22,7 +24,7 @@ public class TestBook {
         System.out.println("name is: " + dummyBook.getName());
         System.out.println("price is: " + dummyBook.getPrice());
         System.out.println("qty is: " + dummyBook.getQty());
-        System.out.println("Author is: " + dummyBook.getAuthors()); // Author's toString()
+        System.out.println("Authors are: " + Arrays.toString(dummyBook.getAuthors())); // Author's toString()
         System.out.println("Author's name is: " + dummyBook.getAuthorNames());
         System.out.println("Author's email is: " + dummyBook.getAuthorEmail());
 // Use an anonymous instance of Author to construct a Book instance
