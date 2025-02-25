@@ -36,6 +36,9 @@ class MyPointTest {
 
     @Test
     void getY() {
+        MyPoint p1 = new MyPoint();
+        p1.setY(6);
+        assertEquals(6, p1.getY());
     }
 
     @Test
