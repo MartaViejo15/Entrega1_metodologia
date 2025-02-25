@@ -8,6 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyCircleTest {
 
     @Test
+    void test() {
+        MyCircle circle = new MyCircle();
+        assertEquals(1, circle.getCenterX());
+        assertEquals(2, circle.getCenterY());
+        assertEquals(1, circle.getRadius());
+    }
+
+    @Test
     void getRadius() {
         MyCircle circle1 = new MyCircle(3,5,6);
         assertEquals(6, circle1.getRadius());
