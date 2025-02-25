@@ -34,7 +34,7 @@ public class TestBook {
 
         System.out.println(anotherBook.getName()); // Modificación 1
         System.out.println(anotherBook.getAuthorEmail()); // Modificación 1
-        System.out.println("Author's name is: " + dummyBook.getName());  // Modificación 2
+        System.out.println("Book's name is: " + dummyBook.getName());  // Modificación 2
         System.out.println("Author's email is: " + dummyBook.getAuthorEmail());  // Modificación 2
         System.out.println("Author's gender is: " + dummyBook.getAuthorGender());  // Modificación 2
 
