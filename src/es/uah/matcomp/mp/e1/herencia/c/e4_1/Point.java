@@ -13,7 +13,7 @@ public class Point {
 
     // Public methods
     public String toString() {
-        return "Point: (" + x + "," + y + ")";
+        return "(" + x + "," + y + ")";
     }
 
     public int getX() {

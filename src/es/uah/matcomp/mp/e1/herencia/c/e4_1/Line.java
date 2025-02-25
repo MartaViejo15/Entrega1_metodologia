@@ -16,6 +16,7 @@ public class Line {
     }
 
     // Public methods
+    @Override
     public String toString() {
         return begin.toString() + " " + end.toString();
     }
@@ -67,10 +68,10 @@ public class Line {
         this.end.setY(endY);
     }
 
-    public int getLength() {
-        return Math.sqrt((end.getX()-begin.getX())*(end.getX()-begin.getX()) + (end.getY()-begin.getY())*(end.getY()-begin.getY()),
-    ;} // Length of the line
-    // Math.sqrt(xDiff*xDiff + yDiff*yDiff)
-    public double getGradient() { ...... } // Gradient in radians
-    // Math.atan2(yDiff, xDiff)
+    public int getLength() {  // Length of the line
+        return (int) Math.sqrt((end.getX()-begin.getX())*(end.getX()-begin.getX()) + (end.getY()-begin.getY())*(end.getY()-begin.getY()));
+    }  // Math.sqrt(xDiff*xDiff + yDiff*yDiff)
+    public double getGradient() {  // Gradient in radians
+        return (Math.atan2(end.getY()-begin.getY(), end.getX()-begin.getX()));
+    }  // Math.atan2(yDiff, xDiff)
 }
