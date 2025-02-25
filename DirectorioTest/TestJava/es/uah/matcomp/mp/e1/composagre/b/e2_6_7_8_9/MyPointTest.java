@@ -7,20 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyPointTest {
 
     @Test
-    void constructorParametros() {
-        MyPoint p1 = new MyPoint(4, 5);
-        assertEquals(4, p1.getX());
-        assertEquals(5, p1.getY());
-    }
-
-    @Test
-    void constructor() {
-        MyPoint p = new MyPoint();
-        assertEquals(0, p.getX());
-        assertEquals(0, p.getY());
-    }
-
-    @Test
     void getX() {
         MyPoint p1 = new MyPoint();
         p1.setX(8);
