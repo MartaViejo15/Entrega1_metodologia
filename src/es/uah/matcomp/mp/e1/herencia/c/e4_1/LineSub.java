@@ -82,7 +82,8 @@ public class LineSub extends Point {
     /* Para el caso que nos ocupa, ¿cuál consideras mejor? ¿Por qué?
     Creo que para este caso es mejor hacerlo con composición, ya que de esta forma
     el código queda más limpio y además la línea se compone de dos puntos, pero no es
-    un punto, como podría darse a entender usando herencias.
+    un punto, como podría darse a entender usando herencias. Además, no habrá problema
+    con el punto en el test unitario, ya que no apunta hacia el mismo punto
      */
 
 }
