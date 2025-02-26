@@ -52,4 +52,16 @@ public class Circle { // Save as "Circle.java"
         return "Circle[radius=" + radius + " color=" + color + "]";
     }
 
+    /*¿Puede ejecutarse la clase creada?
+    No, ya que es una clase y no un main.
+
+    Intenta acceder al atributo radio desde el programa principal. ¿Es posible? ¿Por qué? Indica los
+    mensajes recibidos.
+    No, porque el atributo radius es privado.
+    El mensaje recibido es 'radius' has private access in 'Circle'
+
+    ¿Podemos poner un radio negativo?
+    Sí, porque double puede ser tanto positivo como negativo.
+     */
+
 }

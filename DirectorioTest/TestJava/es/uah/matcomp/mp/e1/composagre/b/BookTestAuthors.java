@@ -25,7 +25,7 @@ class BookTestAuthors {
         Author[] authors = new Author[2];
         authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
         authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
-        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        BookAuthors javaDummy = new BookAuthors("Java for Dummy", authors, 19.99, 99);
         assertEquals(19.99, javaDummy.getPrice());
     }
 
@@ -34,7 +34,7 @@ class BookTestAuthors {
         Author[] authors = new Author[2];
         authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
         authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
-        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        BookAuthors javaDummy = new BookAuthors("Java for Dummy", authors, 19.99, 99);
         javaDummy.setPrice(19.99);
         assertEquals(19.99, javaDummy.getPrice());
     }
@@ -44,7 +44,7 @@ class BookTestAuthors {
         Author[] authors = new Author[2];
         authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
         authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
-        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        BookAuthors javaDummy = new BookAuthors("Java for Dummy", authors, 19.99, 99);
         assertEquals(99, javaDummy.getQty());
     }
 
@@ -53,7 +53,7 @@ class BookTestAuthors {
         Author[] authors = new Author[2];
         authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
         authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
-        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        BookAuthors javaDummy = new BookAuthors("Java for Dummy", authors, 19.99, 99);
         javaDummy.setQty(99);
         assertEquals(99, javaDummy.getQty());
     }
@@ -80,7 +80,7 @@ class BookTestAuthors {
         Author[] authors = new Author[2];
         authors[0] = new Author("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
         authors[1] = new Author("Paul Tan", "Paul@nowhere.com", 'm');
-        Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
+        BookAuthors javaDummy = new BookAuthors("Java for Dummy", authors, 19.99, 99);
         assertEquals("Authors: Tan Ah Teck, AhTeck@somewhere.com, mPaul Tan, Paul@nowhere.com, m", javaDummy.getAuthorInfo());
     }
 

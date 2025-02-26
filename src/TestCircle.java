@@ -24,6 +24,7 @@ public class TestCircle { // Save as "TestCircle.java"
         // Círculo 3, va a tener un radio de 3.0 y el area total va a ser 28.274333882308138
         Circle c3 = new Circle(3.0);
         System.out.println("The circle has radius of " + c3.getRadius() + " and area of " + c3.getArea());
+        //c1.radius = 10
 
         Circle c4 = new Circle(); // construct an instance of Circle
         c4.setRadius(5.5); // change radius
@@ -32,7 +33,7 @@ public class TestCircle { // Save as "TestCircle.java"
         System.out.println("color is: " + c4.getColor()); // Print color via getter
         // You cannot do the following because setRadius() returns void, which cannot be printed
         //System.out.println(c4.setRadius(4.4));
-        // Da errror porque void no puede imprimirse
+        // Da error porque void no puede imprimirse
 
         Circle c5 = new Circle(5.5, "green");
         System.out.println(c5.toString()); // explicit call
