@@ -48,4 +48,10 @@ public class Book {
     public char getAuthorGender() {
         return author.getGender();
     }
+
+    /* ¿Cómo accederías a la información?
+    Para el nombre accedo con aBook.getAuthor().getName() y
+    para el email con aBook.getAuthor().getEmail())
+     */
+
 }
