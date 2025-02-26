@@ -44,6 +44,4 @@ public class MyPoint {
         return Math.sqrt(Math.pow(x - y, 2) + Math.pow(y, 2));
     }
 
-    /*
-
 }
