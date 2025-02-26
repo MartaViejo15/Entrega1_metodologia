@@ -44,4 +44,13 @@ public class MyPoint {
         return Math.sqrt(Math.pow(x - y, 2) + Math.pow(y, 2));
     }
 
+    /*  ¿Qué sucede con el metodo getVolume() ? ¿Por qué?
+    Después de añadir el metodo getArea(), el metodo getVolume() se pierde,
+    ya que ya no sabe qué área utilizar.
+
+    ¿Cómo lo arreglamos?
+    Lo arreglamos llamando al metodo getArea() de la superclase Circle, es decir añadiendo super() antes
+    del getArea().
+     */
+
 }
