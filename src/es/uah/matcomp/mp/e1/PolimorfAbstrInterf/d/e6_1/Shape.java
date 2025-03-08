@@ -22,6 +22,7 @@ public abstract class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
+
     public abstract double getArea();
     public abstract double getPerimeter();
 
