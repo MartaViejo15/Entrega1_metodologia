@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.e1.herencia.c.e3_5;
 
-public abstract class Shape {
+public class Shape {
     private String color = "red";
     private boolean filled = true;
 
@@ -22,10 +22,6 @@ public abstract class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
-
-    public abstract double getArea();
-
-    public abstract double getPerimeter();
 
     public String toString() {
         return "Shape[color=" + color + ", filled=" + filled + "]";
