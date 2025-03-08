@@ -4,7 +4,6 @@ public class AnimalTest {
     public static void main(String[] args) {
         Cat c1 = new Cat("Paquito");
         c1.greets();
-        System.out.println("Paquito greets:" + c1);
 
         Dog d1 = new Dog("Patrick");
         Dog d2 = new Dog("Thor");
