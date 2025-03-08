@@ -1,7 +1,5 @@
 package es.uah.matcomp.mp.e1.PolimorfAbstrInterf.d.e6_1;
 
-import es.uah.matcomp.mp.e1.herencia.c.e3_5.Rectangle;
-
 public class Square extends Rectangle {
 
     public Square() {

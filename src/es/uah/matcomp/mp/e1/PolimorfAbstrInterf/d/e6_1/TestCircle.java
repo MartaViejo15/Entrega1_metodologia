@@ -1,8 +1,5 @@
 package es.uah.matcomp.mp.e1.PolimorfAbstrInterf.d.e6_1;
 
-import es.uah.matcomp.mp.e1.herencia.c.e3_5.Circle;
-import es.uah.matcomp.mp.e1.herencia.c.e3_5.Square;
-
 public class TestCircle {
     public static void main(String[] args) {
         Shape s1 = new Circle(5.5, "red", false); // Upcast Circle to Shape

@@ -1,7 +1,5 @@
 package es.uah.matcomp.mp.e1.PolimorfAbstrInterf.d.e6_1;
 
-import es.uah.matcomp.mp.e1.herencia.c.e3_5.Shape;
-
 public class Circle extends Shape {
     protected double radius = 1.0;
 
