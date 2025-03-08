@@ -10,6 +10,12 @@ public class Circle implements GeometricObject {
     public String toString() {
         return "Circle[" + radius + "]";
     }
+
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+
     @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;
